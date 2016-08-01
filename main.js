@@ -6,7 +6,7 @@ function combineArray(first, second) {
   return newArray.sort();
 }
 
+console.log('New Array ' , combineArray(firstArray, secondArray));
+
 console.log('First Array ' , firstArray);
 console.log('Second Array ' , secondArray);
-
-console.log('New Array ' , combineArray(firstArray, secondArray));
